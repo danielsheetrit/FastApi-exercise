@@ -6,3 +6,4 @@ load_dotenv()
 
 mongo_uri = os.getenv('MONGO_URI')
 conn = MongoClient(mongo_uri)
+test_db = conn['test']
